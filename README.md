@@ -5,10 +5,11 @@ This repository contains the submission for the assignment on search methods for
 The purpose of this project is to have complete a list of given tasks of delivering items from pickup and drop locations using multiple agents or robots.
 All the tasks are to be done optimally in order to minimize the maximum time taken by a particular agent. For that, all the agents must be assigned their tasks in a way that fulfills that goal.
 
-## User Mannual
+## User Manual
 - To run the algorithm, simply run the command "python main.py" inside the Source_code folder.
   (Note - All the files inside the Source_code folder must be present for running the algorithm)
 - All the parameters of the problem have been defined at the end of the file 'main.py' inside the Source_code folder and passed to the main(_) function.
+- Every code has been elaborated using comments which will help the user to set his desired input in the 'main.py'file.
 - The input to the algorithm can be changed by changing the following variables defined at the end of 'main.py'.
 - All locations have been defined as (row no., column no.)
 - The warehouse has been defined using a list of locations of blocks/obstacles (Variable name -> blocks), along with the height (Variable name -> height) and width (Variable name ->width) of the warehouse.
@@ -52,7 +53,7 @@ All the tasks are to be done optimally in order to minimize the maximum time tak
 - After setting these variables to your liking, you can execute the code in 'main.py' by running the command "python main.py" inside the Source_code folder.
 
 ## Documentation
-The logic and implementation of the entire project has been explained in an attached documentation (Documentation.pdf).
+The report highlighting the algorithm used in this project anong with implementation details have been explained in an attached documentation file (Documentation.pdf).
 
 ## Limitations
 The most apparant feature that has been left out from the problem statement is the use of temperory storage locations. There is currently no way to indicate or make use of temperory storage locations. That is because we were unable to figure out a way of implementing the same and make use of them optimally.
