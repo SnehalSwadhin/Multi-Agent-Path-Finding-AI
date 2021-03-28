@@ -14,21 +14,37 @@ All the tasks are to be done optimally in order to minimize the maximum time tak
 - The warehouse has been defined using a list of locations of blocks/obstacles (Variable name -> blocks), along with the height (Variable name -> height) and width (Variable name ->width) of the warehouse.
   By changing these three variables, a user can define their warehouse layout.
 - The Robots have been defined as a list of their start and end locations (Variable name -> bots).
+
   Syntax used to define robots : [(R(i).x, R(i).y), (E(i).x, E(i).y)]
-  where, 	R(i) = Start location of ith robot.
+
+  where, 	R(i) = Start location of ith robot
+
   			R(i).x = Row number of R(i)
+
   			R(i).y = Column number of R(i)
-  			E(i) = End location of ith robot.
+
+  			E(i) = End location of ith robot
+
   			E(i).x = Row number of E(i)
+
   			E(i).y = Column number of E(i)
+
 - The Tasks have been defined as a list of their pick-up and destination locations (Variable name -> tasks).
+
   Syntax used to define robots : [(P(i).x, P(i).y), (D(i).x, D(i).y)]
-  where, 	P(i) = Pick-up location of ith robot.
+
+  where, 	P(i) = Pick-up location of ith robot
+
   			P(i).x = Row number of P(i)
+
   			P(i).y = Column number of P(i)
-  			D(i) = Destination location of ith robot.
+
+  			D(i) = Destination location of ith robot
+
   			D(i).x = Row number of D(i)
+
   			D(i).y = Column number of D(i)
+
 - After setting these variables to your liking, you can execute the code in 'main.py' by running the command "python main.py" inside the Source_code folder.
 
 ## Documentation
