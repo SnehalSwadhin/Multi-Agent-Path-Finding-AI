@@ -18,6 +18,7 @@ All the tasks are to be done optimally in order to minimize the maximum time tak
   Syntax used to define robots : [(R(i).x, R(i).y), (E(i).x, E(i).y)]
 
   where, 	
+
   			R(i) = Start location of ith robot
 
   			R(i).x = Row number of R(i)
@@ -35,6 +36,7 @@ All the tasks are to be done optimally in order to minimize the maximum time tak
   Syntax used to define robots : [(P(i).x, P(i).y), (D(i).x, D(i).y)]
 
   where, 	
+  
   			P(i) = Pick-up location of ith robot
 
   			P(i).x = Row number of P(i)
