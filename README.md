@@ -6,9 +6,9 @@ The purpose of this project is to have complete a list of given tasks of deliver
 All the tasks are to be done optimally in order to minimize the maximum time taken by a particular agent. For that, all the agents must be assigned their tasks in a way that fulfills that goal.
 
 ## User Mannual
-- All the parameters of the problem have been defined at the end of the file and passed to the main(_) function.
 - To run the algorithm, simply run the command "python main.py" inside the Source_code folder.
   (Note - All the files inside the Source_code folder must be present for running the algorithm)
+- All the parameters of the problem have been defined at the end of the file 'main.py' inside the Source_code folder and passed to the main(_) function.
 - The input to the algorithm can be changed by changing the following variables defined at the end of 'main.py'.
 - All locations have been defined as (row no., column no.)
 - The warehouse has been defined using a list of locations of blocks/obstacles (Variable name -> blocks), along with the height (Variable name -> height) and width (Variable name ->width) of the warehouse.
@@ -36,7 +36,7 @@ All the tasks are to be done optimally in order to minimize the maximum time tak
   Syntax used to define robots : [(P(i).x, P(i).y), (D(i).x, D(i).y)]
 
   where, 	
-  
+
   			P(i) = Pick-up location of ith robot
 
   			P(i).x = Row number of P(i)
